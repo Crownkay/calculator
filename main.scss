@@ -65,3 +65,14 @@ body {
     font-size: 2.5rem;
   }
 }
+
+@media screen and (max-width: 600px){
+  .calculator-grid {
+    grid-template-columns: repeat(4, 50px);
+    grid-template-rows: minmax(120px, auto) repeat(5, 50px);
+    
+  button {
+    font-size: 1.05rem;
+  }
+}
+}
